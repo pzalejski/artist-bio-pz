@@ -1,0 +1,12 @@
+<div *ngIf='artist.name !=""'> 
+    <span><h2>Bio: </h2><h2>{{artist.name}}</h2></span>
+
+</div>
+
+
+
+<div>
+    <label for="name">Name:
+        <input type="text" [(ngModel)]='artist.name' placeholder="Add Bio" class='data-binding-style'>
+    </label>
+</div>

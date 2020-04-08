@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'artist-bio';
+  title = 'Top 5 Artists';
+
+  artists = [
+    'Phil Collins',
+    'Ozzy Osbourne',
+    'Chester Bennington',
+    'David Draiman',
+    'Sonny Sandoval'
+
+  ]
 }
